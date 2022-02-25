@@ -5,6 +5,13 @@
 \usepackage{float}
 \usepackage{amsmath}
 \usepackage{subcaption}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
 \begin{document}
 \maketitle
 The data consists of 7 columns, with titles being: 'age', 'sex', 'bmi', 'children', 'smoker', 'region', 'charges'.
@@ -63,4 +70,7 @@ It consists of 1338 rows of entries. Types include float64, int64, object. I fil
 \label{mesh:fig1}
 \caption{From plots we can conclude that being an smoker results in higher charges.}
 \end{figure}\textit{•}
+\begin{center}
+You can access the code by clicking \href{https://github.com/narges8k/MachineLearningWorkshop/tree/main/HW1}{here}.
+\end{center}
 \end{document}
